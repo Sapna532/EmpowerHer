@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Internal Styling</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .card-container {
+            width: 300px;
+            height: 400px;
+            padding: 20px; 
+            margin: auto;  
+            border: 2px solid black; 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;    
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box; 
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px; 
+            border-radius: 50%;
+            object-fit: cover; 
+            margin-bottom: 20px; 
+        }
+        .profile-name {
+            margin: 0 0 5px 0; 
+            color: #333;
+        }
+
+        .profile-description {
+            
+            margin: 0;
+            color: #666;
+            font-size: 0.9em;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <img src="https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png" alt="Profile Picture" class="profile-image">
+        
+        <h2 class="profile-name">Sapna Yadav</h2><br>
+        <p class="profile-description">A passionate web developer exploring the boundaries of HTML and CSS. Masai Course.</p>
+    </div>
+</body>
+</html>
